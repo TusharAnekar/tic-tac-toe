@@ -17,5 +17,5 @@ A simple Tic Tac Toe game built using React. This project demonstrates basic Rea
 ### Installation
 
 1. **Clone the repository**:
-   git clone https://github.com/TusharAnekar/tic-tac-toe.git
-   cd tic-tac-toe-reac
+   - git clone https://github.com/TusharAnekar/tic-tac-toe.git
+   - cd tic-tac-toe-reac
