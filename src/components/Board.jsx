@@ -28,6 +28,8 @@ export const Board = () => {
   let status;
   if (winner) {
     status = "Winner: " + winner;
+  } else if (squares.every((value) => value)) {
+    status = "Draw";
   } else {
     status = "Next player: " + (isXNext ? "X" : "O");
   }
