@@ -22,6 +22,7 @@ export const Board = () => {
 
   function handleReset() {
     setSquares(Array(9).fill(null));
+    setIsXNext(true);
   }
 
   const winner = calculateWinner(squares);
@@ -37,7 +38,7 @@ export const Board = () => {
   return (
     <div className="flex flex-col gap-4">
       <p
-        className={`text-center ${status.includes("Winner") && "text-lg font-semibold italic text-green-500"}`}
+        className={`text-center md:text-lg lg:text-xl ${status.includes("Winner") && "font-semibold italic text-green-500"}`}
       >
         {status}
       </p>
